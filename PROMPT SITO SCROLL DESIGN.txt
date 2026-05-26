@@ -1,0 +1,27 @@
+I've uploaded video-bg.mp4. Build me a professional scroll-driven website.
+
+VIDEO: advances with scroll using requestAnimationFrame to update video.currentTime. Height 600vh, position sticky, 100vw x 100vh, object-fit cover, overlay rgba(0,0,0,0.18).
+
+SECTIONS (5, each occupying 1/5 of the scroll):
+1. HERO: [text or logo only]
+2. REVEAL: eyebrow [TEXT], title [TITLE], sub [LINE]
+3. DETAILS: eyebrow [TEXT], title [TITLE]
+4. ATMOSPHERE: title [EMOTIONAL LINE]
+5. CTA: title [TITLE], button [CTA TEXT]
+
+ADVANCED DESIGN:
+- Custom cursor: 6px dot, grows to 18px on hover, transition 0.15s
+- Loading screen: black bg, brand name in white, 2.5s then fade-out 0.8s
+- Fixed navbar: transparent then rgba(0,0,0,0.8) + backdrop-filter blur(16px) after 80px scroll
+- Scroll indicator: SCROLL + arrow, fades out after 60px
+- Text animations: Intersection Observer, opacity 0 to 1 + translateY 24px to 0 in 0.6s
+- Button hover: color inversion, transition 0.28s
+- Navbar link hover: animated underline width 0 to 100%, transition 0.22s
+
+TYPOGRAPHY: font [NAME] from Google Fonts. Titles weight 800, letter-spacing -0.025em. Eyebrow 10px uppercase letter-spacing 0.26em opacity 0.55.
+
+COLORS: bg [HEX], text [HEX], accent [HEX].
+
+STRUCTURE: single HTML file, CSS and JS inline, vanilla JS only (no jQuery, no GSAP), desktop-optimized, H.264 compatible.
+
+Give me the complete HTML file.

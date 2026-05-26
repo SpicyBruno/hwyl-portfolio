@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Build artifacts (future-proof for Next migration)
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Local Claude artifacts
+.claude/
